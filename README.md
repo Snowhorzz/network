@@ -67,7 +67,7 @@ NTP & Syslog (config mode)
 SSH (config-mode)
 1.	ip domain-name ccnasecurity.com (IMPORTANT)
 2.	username SSHadmin privilege 15 secret ciscosshpa55 (15 is highest user privilege level)
-3.	line vty 0 4
+3.	line vty 0 4 (vty) / line con 0 (console)
 4.	login local 
 5.	transport input ssh
 6.	exit
