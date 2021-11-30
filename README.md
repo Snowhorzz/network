@@ -225,6 +225,6 @@ Ssh(22) Https(443) Http(80)
 
 
 Established
- 
+disable dns lookup cisco - 'no ip domain-lookup'
  
  
